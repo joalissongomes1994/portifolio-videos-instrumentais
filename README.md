@@ -1,0 +1,1 @@
+Pequeno projeto utilizando HTML, CSS e JS com o intuito de fixar os conceitos básicos. No projeto foi desenvolvido um portifolio para disponibilizar vídeos instrumentais e uma breve descrição do artista.
