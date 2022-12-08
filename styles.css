@@ -1,7 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700&display=swap");
 
 :root {
-  --color-green: #50fa7b;
   --color-rocket: #7159c1;
 }
 
@@ -36,7 +35,7 @@ header {
 }
 
 .links a:hover {
-  color: var(--color-green);
+  color: var(--color-rocket);
   transition: color 200ms;
 }
 
@@ -47,7 +46,7 @@ header {
 
 #wrapper img {
   border-radius: 50%;
-  border: 5px solid var(--color-green);
+  border: 5px solid var(--color-rocket);
   margin-bottom: 32px;
   height: 300px;
 }
@@ -74,24 +73,17 @@ header {
 }
 
 #wrapper p a {
-  color: var(--color-green);
+  color: var(--color-rocket);
   text-decoration: none;
-}
-
-#links-footer a {
-  border-bottom: 1px solid var(--color-green);
-  margin-bottom: 5%;
-
-  text-decoration: var(--color-green);
 }
 
 /* === CARDS === */
 .cards {
-  max-width: 800px;
+  max-width: 50rem;
   margin: 0 auto;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  gap: 20px;
+  grid-template-columns: repeat(auto-fill, minmax(360px, 1fr)); /* see notes below */
+  grid-gap: 1em;
 }
 
 .card {
