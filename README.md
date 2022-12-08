@@ -40,7 +40,8 @@ $ git clone https://github.com/joalissongomes1994/portifolio-videos-instrumentai
 # Acesse a pasta do projeto
 $ cd portifolio-videos-instrumentais
 
-# Agora é só ir até o caminho que está o arquivo index.html em seu computador e clicar para o abrir no browser
+# Agora é só ir até o caminho que está o arquivo index.html em seu computador e clicar para 
+# o abrir no browser
 ```
 
 
